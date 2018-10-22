@@ -1575,7 +1575,7 @@
 			path = ".build/checkouts/Perfect-CZlib-src.git--7315907424604449906/PerfectCZlib";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -1584,7 +1584,6 @@
 				OBJ_14 /* Dependencies */,
 				OBJ_357 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_60 /* include */ = {
@@ -2051,7 +2050,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_357 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -2763,6 +2762,7 @@
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
+				SWIFT_INCLUDE_PATHS = "${PROJECT_DIR}/**";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				USE_HEADERMAP = NO;
 			};
@@ -2837,6 +2837,7 @@
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_INCLUDE_PATHS = "${PROJECT_DIR}/**";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				USE_HEADERMAP = NO;
 			};
@@ -3425,11 +3426,7 @@
 				);
 				INFOPLIST_FILE = iPerfect.xcodeproj/iPerfect_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)",
-					"-",
-					Recursive,
-				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-CZlib-src.git--7315907424604449906/PerfectCZlib/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git-8409816492273721866/COpenSSL/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--802200450904491260/Sources/PerfectCHTTPParser/include/module.modulemap";
@@ -3456,11 +3453,7 @@
 				);
 				INFOPLIST_FILE = iPerfect.xcodeproj/iPerfect_Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)",
-					"-",
-					Recursive,
-				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/**";
 				OTHER_CFLAGS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-CZlib-src.git--7315907424604449906/PerfectCZlib/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL.git-8409816492273721866/COpenSSL/include/module.modulemap -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-HTTPServer.git--802200450904491260/Sources/PerfectCHTTPParser/include/module.modulemap";
