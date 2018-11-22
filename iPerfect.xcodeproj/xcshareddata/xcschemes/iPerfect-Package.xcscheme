@@ -14,6 +14,48 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "iPerfect::iPerfect"
+               BuildableName = "iPerfect"
+               BlueprintName = "iPerfect"
+               ReferencedContainer = "container:iPerfect.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "iPerfect::ToDO-Backend"
+               BuildableName = "ToDO-Backend"
+               BlueprintName = "ToDO-Backend"
+               ReferencedContainer = "container:iPerfect.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "iPerfect::Perfect-Weather"
+               BuildableName = "Perfect-Weather"
+               BlueprintName = "Perfect-Weather"
+               ReferencedContainer = "container:iPerfect.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "iPerfect::Perfect-APNS"
                BuildableName = "Perfect-APNS"
                BlueprintName = "Perfect-APNS"
@@ -42,9 +84,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::OnLineMDEditor"
-               BuildableName = "OnLineMDEditor"
-               BlueprintName = "OnLineMDEditor"
+               BlueprintIdentifier = "iPerfect::TurnstileSQLiteDemo"
+               BuildableName = "TurnstileSQLiteDemo"
+               BlueprintName = "TurnstileSQLiteDemo"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,9 +98,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::iPerfect"
-               BuildableName = "iPerfect"
-               BlueprintName = "iPerfect"
+               BlueprintIdentifier = "iPerfect::OnLineMDEditor"
+               BuildableName = "OnLineMDEditor"
+               BlueprintName = "OnLineMDEditor"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -97,9 +139,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "iPerfect::Perfect-APNS"
-            BuildableName = "Perfect-APNS"
-            BlueprintName = "Perfect-APNS"
+            BlueprintIdentifier = "iPerfect::iPerfect"
+            BuildableName = "iPerfect"
+            BlueprintName = "iPerfect"
             ReferencedContainer = "container:iPerfect.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

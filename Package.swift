@@ -6,8 +6,8 @@ let base = "https://github.com/PerfectlySoft"
 let package = Package(
     name: "iPerfect",
     products:[
-        .library(name: "iPerfect", targets: ["iPerfect"]),
-        .library(name: "Perfect-JSON-API", targets: ["Perfect-JSON-API"]),
+//        .library(name: "iPerfect", targets: ["iPerfect"]),
+//        .library(name: "Perfect-JSON-API", targets: ["Perfect-JSON-API"]),
         //.library(name: "OnLineMDEditor", targets: ["OnLineMDEditor"])
     ],
     dependencies: [
@@ -22,11 +22,11 @@ let package = Package(
         //天气demo
         .package(url: "\(base)/Perfect-CURL.git", from: "3.0.0"),
         .package(url: "https://github.com/iamjono/JSONConfig.git", from: "3.0.0"),
-        .package(url: "\(base)/Perfect-libcurl.git", from: "3.0.0"),
-        ///TODO
+//        .package(url: "\(base)/Perfect-libcurl.git", from: "3.0.0"),
+//        ///TODO
         .package(url: "https://github.com/SwiftORM/MySQL-StORM.git", from: "3.0.0"),
         .package(url: "\(base)/Perfect-Turnstile-MySQL.git", from: "3.0.0"),
-        .package(url: "https://github.com/rymcol/SwiftSQL.git", from: "3.0.0"),
+        .package(url: "https://github.com/rymcol/SwiftSQL.git", from: "0.0.0"),
     ],
     targets: [
         .target(
@@ -59,7 +59,7 @@ let package = Package(
                 sources:["Sources"]),
         ///天气预报
         .target(name:"Perfect-Weather",
-                dependencies:["PerfectCURL","JSONConfig","cURL"],
+                dependencies:["PerfectCURL","JSONConfig",],//"cURL"],
                 path:"Other/PerfectWeather",
                 exclude:["Resource","Tests"],
                 sources:["Sources"]),
@@ -71,9 +71,12 @@ let package = Package(
                          "Perfect-ToDo-API/Supporting",
                          "Perfect-ToDo-API/Tests"],
                 sources:["Perfect-ToDo-API/Sources"]),
-        .target(name: "ToDo-API",
-                dependencies: [.target(name: "ToDoModel")]),
-        .target(name: "ToDoModel",
-                dependencies: [])
+//        .target(name: "ToDo-API",
+//                dependencies: [.target(name: "ToDoModel"),],
+//                path:"Other/ToDO-Backend/Perfect-ToDo-API/Sources/",
+//                sources:["ToDo-API"]),
+//        .target(name: "ToDoModel",
+//                path:"Other/ToDO-Backend/Perfect-ToDo-API/Sources/",
+//                sources:["ToDoModel"])
     ]
 )
