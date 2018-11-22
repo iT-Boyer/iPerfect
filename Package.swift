@@ -5,6 +5,10 @@ import PackageDescription
 
 let package = Package(
     name: "iPerfect",
+    products:[
+        .library(name: "iPerfect", targets: ["iPerfect"]),
+        .library(name: "Perfect-JSON-API", targets: ["Perfect-JSON-API"])
+    ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
@@ -19,5 +23,9 @@ let package = Package(
         .testTarget(
             name: "iPerfectTests",
             dependencies: ["iPerfect"]),
+        .target(name:"Perfect-JSON-API",
+               dependencies: ["PerfectHTTPServer"],
+               path:"Other/JSONAPI/Sources"
+               ),//exclude: ["contrib", "test", "examples"]),
     ]
 )

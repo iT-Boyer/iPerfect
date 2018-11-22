@@ -1,0 +1,3 @@
+[submodule "Other/JSONAPI"]
+	path = Other/JSONAPI
+	url = https://github.com/PerfectExamples/Perfect-JSON-API.git
