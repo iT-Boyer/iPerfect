@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::ToDO-Backend"
-               BuildableName = "ToDO-Backend"
-               BlueprintName = "ToDO-Backend"
+               BlueprintIdentifier = "iPerfect::ToDo-API"
+               BuildableName = "ToDo-API"
+               BlueprintName = "ToDo-API"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "iPerfect::Perfect-ToDo-iOS-DemoTests"
+               BuildableName = "Perfect-ToDo-iOS-DemoTests.xctest"
+               BlueprintName = "Perfect-ToDo-iOS-DemoTests"
+               ReferencedContainer = "container:iPerfect.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <AdditionalOptions>
       </AdditionalOptions>
@@ -46,9 +56,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "iPerfect::ToDO-Backend"
-            BuildableName = "ToDO-Backend"
-            BlueprintName = "ToDO-Backend"
+            BlueprintIdentifier = "iPerfect::ToDo-API"
+            BuildableName = "ToDo-API"
+            BlueprintName = "ToDo-API"
             ReferencedContainer = "container:iPerfect.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

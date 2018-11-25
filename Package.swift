@@ -64,19 +64,21 @@ let package = Package(
                 exclude:["Resource","Tests"],
                 sources:["Sources"]),
         ///TODO
-        .target(name:"ToDO-Backend",
+//        .target(name:"ToDO-Backend",
+//                dependencies:[.target(name: "ToDo-API"),.target(name: "Perfect-ToDo-iOS-DemoTests"),],
+//                path:"Other/ToDO-Backend",
+//                exclude:["Perfect-ToDo-iOS",
+//                         "Perfect-ToDo-API/Supporting"]),
+        .testTarget(
+                    name: "Perfect-ToDo-iOS-DemoTests",
+                    dependencies:[.target(name: "ToDo-API"),],
+                    path:"Other/ToDO-Backend/Perfect-ToDo-API/Tests",
+                    sources:["Perfect-ToDo-iOS-DemoTests"]),
+        .target(name: "ToDo-Backend/ToDo-API",
+                dependencies: [.target(name: "ToDoModel"),],
+                path:"Other/ToDO-Backend/Perfect-ToDo-API/Sources/ToDo-API"),
+        .target(name: "ToDo-Backend/ToDoModel",
                 dependencies:["MySQLStORM","PerfectTurnstileMySQL","SwiftSQL"],
-                path:"Other/ToDO-Backend",
-                exclude:["Perfect-ToDo-iOS",
-                         "Perfect-ToDo-API/Supporting",
-                         "Perfect-ToDo-API/Tests"],
-                sources:["Perfect-ToDo-API/Sources"]),
-//        .target(name: "ToDo-API",
-//                dependencies: [.target(name: "ToDoModel"),],
-//                path:"Other/ToDO-Backend/Perfect-ToDo-API/Sources/",
-//                sources:["ToDo-API"]),
-//        .target(name: "ToDoModel",
-//                path:"Other/ToDO-Backend/Perfect-ToDo-API/Sources/",
-//                sources:["ToDoModel"])
+                path:"Other/ToDO-Backend/Perfect-ToDo-API/Sources/ToDoModel")
     ]
 )

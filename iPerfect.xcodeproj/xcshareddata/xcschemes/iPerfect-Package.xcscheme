@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::iPerfect"
-               BuildableName = "iPerfect"
-               BlueprintName = "iPerfect"
-               ReferencedContainer = "container:iPerfect.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::ToDO-Backend"
-               BuildableName = "ToDO-Backend"
-               BlueprintName = "ToDO-Backend"
+               BlueprintIdentifier = "iPerfect::ToDo-API"
+               BuildableName = "ToDo-API"
+               BlueprintName = "ToDo-API"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,23 +42,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::Perfect-APNS"
-               BuildableName = "Perfect-APNS"
-               BlueprintName = "Perfect-APNS"
-               ReferencedContainer = "container:iPerfect.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::Perfect-JSON-API"
-               BuildableName = "Perfect-JSON-API"
-               BlueprintName = "Perfect-JSON-API"
+               BlueprintIdentifier = "iPerfect::iPerfect"
+               BuildableName = "iPerfect"
+               BlueprintName = "iPerfect"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -104,6 +76,48 @@
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "iPerfect::Perfect-JSON-API"
+               BuildableName = "Perfect-JSON-API"
+               BlueprintName = "Perfect-JSON-API"
+               ReferencedContainer = "container:iPerfect.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "iPerfect::ToDoModel"
+               BuildableName = "ToDoModel.framework"
+               BlueprintName = "ToDoModel"
+               ReferencedContainer = "container:iPerfect.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "iPerfect::Perfect-APNS"
+               BuildableName = "Perfect-APNS"
+               BlueprintName = "Perfect-APNS"
+               ReferencedContainer = "container:iPerfect.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -119,6 +133,16 @@
                BlueprintIdentifier = "iPerfect::iPerfectTests"
                BuildableName = "iPerfectTests.xctest"
                BlueprintName = "iPerfectTests"
+               ReferencedContainer = "container:iPerfect.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "iPerfect::Perfect-ToDo-iOS-DemoTests"
+               BuildableName = "Perfect-ToDo-iOS-DemoTests.xctest"
+               BlueprintName = "Perfect-ToDo-iOS-DemoTests"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -139,9 +163,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "iPerfect::iPerfect"
-            BuildableName = "iPerfect"
-            BlueprintName = "iPerfect"
+            BlueprintIdentifier = "iPerfect::ToDo-API"
+            BuildableName = "ToDo-API"
+            BlueprintName = "ToDo-API"
             ReferencedContainer = "container:iPerfect.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
