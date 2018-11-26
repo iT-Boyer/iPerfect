@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::ToDo-API"
-               BuildableName = "ToDo-API"
-               BlueprintName = "ToDo-API"
+               BlueprintIdentifier = "iPerfect::OnLineMDEditor"
+               BuildableName = "OnLineMDEditor"
+               BlueprintName = "OnLineMDEditor"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::Perfect-Weather"
-               BuildableName = "Perfect-Weather"
-               BlueprintName = "Perfect-Weather"
+               BlueprintIdentifier = "iPerfect::Perfect-APNS"
+               BuildableName = "Perfect-APNS"
+               BlueprintName = "Perfect-APNS"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -70,9 +70,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::OnLineMDEditor"
-               BuildableName = "OnLineMDEditor"
-               BlueprintName = "OnLineMDEditor"
+               BlueprintIdentifier = "iPerfect::Perfect-Weather"
+               BuildableName = "Perfect-Weather"
+               BlueprintName = "Perfect-Weather"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -112,9 +112,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::Perfect-APNS"
-               BuildableName = "Perfect-APNS"
-               BlueprintName = "Perfect-APNS"
+               BlueprintIdentifier = "iPerfect::ToDo-API"
+               BuildableName = "ToDo-API"
+               BlueprintName = "ToDo-API"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -163,9 +163,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "iPerfect::ToDo-API"
-            BuildableName = "ToDo-API"
-            BlueprintName = "ToDo-API"
+            BlueprintIdentifier = "iPerfect::OnLineMDEditor"
+            BuildableName = "OnLineMDEditor"
+            BlueprintName = "OnLineMDEditor"
             ReferencedContainer = "container:iPerfect.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

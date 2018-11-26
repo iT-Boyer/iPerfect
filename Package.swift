@@ -74,10 +74,10 @@ let package = Package(
                     dependencies:[.target(name: "ToDo-API"),],
                     path:"Other/ToDO-Backend/Perfect-ToDo-API/Tests",
                     sources:["Perfect-ToDo-iOS-DemoTests"]),
-        .target(name: "ToDo-Backend/ToDo-API",
+        .target(name: "ToDo-API",
                 dependencies: [.target(name: "ToDoModel"),],
                 path:"Other/ToDO-Backend/Perfect-ToDo-API/Sources/ToDo-API"),
-        .target(name: "ToDo-Backend/ToDoModel",
+        .target(name: "ToDoModel",
                 dependencies:["MySQLStORM","PerfectTurnstileMySQL","SwiftSQL"],
                 path:"Other/ToDO-Backend/Perfect-ToDo-API/Sources/ToDoModel")
     ]
