@@ -6,7 +6,7 @@
 	url = https://github.com/PerfectExamples/Perfect-Markdown-Editor.git
 [submodule "Other/Perfect-APNS"]
 	path = Other/Perfect-APNS
-    url = https://gitee.com/huosan/Perfect-APNS-Demo.git
+    url = https://gitee.com/iTBoyer/Perfect-APNS-Demo.git
 [submodule "Other/TurnstileSQLiteDemo"]
 	path = Other/TurnstileSQLiteDemo
 	url = https://github.com/PerfectExamples/Perfect-Turnstile-SQLite-Demo.git

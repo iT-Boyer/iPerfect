@@ -3087,6 +3087,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		81F1081E21F0632E00850990 /* .gitmodules */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitmodules; sourceTree = "<group>"; };
 		"COpenSSL::COpenSSL::Product" /* COpenSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = COpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"JSONConfig::JSONConfig::Product" /* JSONConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = JSONConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"MySQLStORM::MySQLStORM::Product" /* MySQLStORM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MySQLStORM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -5365,17 +5366,17 @@
 			path = "Perfect-ToDo-iOS-DemoTests";
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
+				81F1081E21F0632E00850990 /* .gitmodules */,
 				OBJ_7 /* Sources */,
 				OBJ_42 /* Tests */,
 				OBJ_49 /* Other */,
 				OBJ_50 /* Dependencies */,
 				OBJ_629 /* Products */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_50 /* Dependencies */ = {
@@ -7128,7 +7129,7 @@
 			knownRegions = (
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_629 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
