@@ -14,6 +14,34 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "iPerfect::OnLineMDEditor"
+               BuildableName = "OnLineMDEditor"
+               BlueprintName = "OnLineMDEditor"
+               ReferencedContainer = "container:iPerfect.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "iPerfect::Perfect-APNS"
+               BuildableName = "Perfect-APNS"
+               BlueprintName = "Perfect-APNS"
+               ReferencedContainer = "container:iPerfect.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "iPerfect::iPerfect"
                BuildableName = "iPerfect"
                BlueprintName = "iPerfect"
@@ -42,20 +70,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::Perfect-Weather"
-               BuildableName = "Perfect-Weather"
-               BlueprintName = "Perfect-Weather"
-               ReferencedContainer = "container:iPerfect.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "iPerfect::iNoteServer"
                BuildableName = "iNoteServer"
                BlueprintName = "iNoteServer"
@@ -70,23 +84,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::OnLineMDEditor"
-               BuildableName = "OnLineMDEditor"
-               BlueprintName = "OnLineMDEditor"
-               ReferencedContainer = "container:iPerfect.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::Perfect-APNS"
-               BuildableName = "Perfect-APNS"
-               BlueprintName = "Perfect-APNS"
+               BlueprintIdentifier = "iPerfect::Perfect-Weather"
+               BuildableName = "Perfect-Weather"
+               BlueprintName = "Perfect-Weather"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

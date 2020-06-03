@@ -81,7 +81,7 @@ let package = Package(
 //                exclude:["webroot"],
 //                sources:["Sources"]),
         ///天气预报
-        .target(name:"Perfect-Weather",
+        .target(name:"PerfectWeather",
                 dependencies:["PerfectHTTPServer","PerfectCURL","JSONConfig",],//"cURL"],
                 path:"Other/PerfectWeather",
                 exclude:["Resource","Tests"],
