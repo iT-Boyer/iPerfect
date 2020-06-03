@@ -82,7 +82,7 @@ let package = Package(
 //                sources:["Sources"]),
         ///天气预报
         .target(name:"Perfect-Weather",
-                dependencies:["PerfectCURL","JSONConfig",],//"cURL"],
+                dependencies:["PerfectHTTPServer","PerfectCURL","JSONConfig",],//"cURL"],
                 path:"Other/PerfectWeather",
                 exclude:["Resource","Tests"],
                 sources:["Sources"]),
