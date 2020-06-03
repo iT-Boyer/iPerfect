@@ -13,3 +13,6 @@
 [submodule "Other/ToDO-Backend"]
 	path = Other/ToDO-Backend
 	url = https://github.com/PerfectExamples/Perfect-ToDo-iOS-Demo.git
+[submodule "Other/PerfectWeather"]
+	path = Other/PerfectWeather
+	url = https://github.com/iT-Boyer/PerfectTemplate.git
