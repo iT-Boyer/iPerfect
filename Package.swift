@@ -46,6 +46,7 @@ let package = Package(
         .package(name:"PerfectNotifications", url: "\(base)/Perfect-Notifications.git", from: versions),
         .package(name:"PerfectCURL", url: "\(base)/Perfect-CURL.git", from: versions),
         .package(name:"JSONConfig", url: "https://github.com/iamjono/JSONConfig.git", from: versions),
+        .package(name:"cURL", url: "\(base)/Perfect-libcurl.git", from: Version(2, 0, 0)),
     ],
     targets: [
         .target(
@@ -82,7 +83,7 @@ let package = Package(
 //                sources:["Sources"]),
         ///天气预报
         .target(name:"PerfectTemplate",
-                dependencies:["PerfectHTTPServer","PerfectCURL","JSONConfig",],//"cURL"],
+                dependencies:["PerfectHTTPServer","PerfectCURL","JSONConfig"],//,"cURL"],
                 path:"Other/PerfectTemplate",
                 exclude:["Sources/old"],
                 sources:["Sources"]),
