@@ -90,8 +90,8 @@ extension NetworkServerManager {
         return {[weak self] request, response in
             guard let phoneNum =  request.param(name: "phoneNum"),
                   let password = request.param(name: "password"),
-                  phoneNum.characters.count > 0,
-                  password.characters.count > 0
+                  phoneNum.count > 0,
+                  password.count > 0
             else {
                 self?.requestHandle(request: request, response: response, status: .failure, result: false, resultMessage: "缺少对应参数", data: nil)
                 return
@@ -108,8 +108,8 @@ extension NetworkServerManager {
         return {[weak self] request, response in
             guard let phoneNum =  request.param(name: "phoneNum"),
                   let password = request.param(name: "password"),
-                  phoneNum.characters.count > 0,
-                  password.characters.count > 0
+                  phoneNum.count > 0,
+                  password.count > 0
             else {
                 self?.requestHandle(request: request, response: response, status: .failure, result: false, resultMessage: "缺少对应参数", data: nil)
                 return
@@ -130,7 +130,7 @@ extension NetworkServerManager {
         return {[weak self] request, response in
             
             guard let userId = request.param(name: "userId"),
-                  userId.characters.count > 0
+                  userId.count > 0
             else {
                 self?.requestHandle(request: request, response: response, status: .failure, result: false, resultMessage: "缺少对应参数", data: nil)
                 return
@@ -147,9 +147,9 @@ extension NetworkServerManager {
             guard let userId = request.param(name: "userId"),
                   let title = request.param(name: "title"),
                   let content = request.param(name: "content"),
-                  userId.characters.count > 0,
-                  title.characters.count > 0,
-                  content.characters.count > 0
+                  userId.count > 0,
+                  title.count > 0,
+                  content.count > 0
             else {
                 self?.requestHandle(request: request, response: response, status: .failure, result: false, resultMessage: "缺少对应参数", data: nil)
                 return
@@ -164,7 +164,7 @@ extension NetworkServerManager {
         return {[weak self] request, response in
             
             guard let id = request.param(name: "id"),
-                  id.characters.count > 0
+                  id.count > 0
             else {
                 self?.requestHandle(request: request, response: response, status: .failure, result: false, resultMessage: "缺少对应参数", data: nil)
                 return
@@ -181,9 +181,9 @@ extension NetworkServerManager {
             guard let id = request.param(name: "id"),
                   let title = request.param(name: "title"),
                   let content = request.param(name: "content"),
-                  id.characters.count > 0,
-                  title.characters.count > 0,
-                  content.characters.count > 0
+                  id.count > 0,
+                  title.count > 0,
+                  content.count > 0
             else {
                 self?.requestHandle(request: request, response: response, status: .failure, result: false, resultMessage: "缺少对应参数", data: nil)
                 return

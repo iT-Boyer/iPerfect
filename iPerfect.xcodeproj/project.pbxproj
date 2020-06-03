@@ -2573,13 +2573,17 @@
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
             OTHER_CFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-I/usr/local/Cellar/mysql@5.7/5.7.29/include/mysql"
             );
             OTHER_LDFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-L/usr/local/Cellar/mysql@5.7/5.7.29/lib",
+               "-lmysqlclient"
             );
             OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-I/usr/local/Cellar/mysql@5.7/5.7.29/include/mysql"
             );
             PRODUCT_BUNDLE_IDENTIFIER = "PerfectMySQL";
             PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -2611,13 +2615,17 @@
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
             OTHER_CFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-I/usr/local/Cellar/mysql@5.7/5.7.29/include/mysql"
             );
             OTHER_LDFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-L/usr/local/Cellar/mysql@5.7/5.7.29/lib",
+               "-lmysqlclient"
             );
             OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-I/usr/local/Cellar/mysql@5.7/5.7.29/include/mysql"
             );
             PRODUCT_BUNDLE_IDENTIFIER = "PerfectMySQL";
             PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -4442,14 +4450,18 @@
             );
             MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-I/usr/local/Cellar/mysql@5.7/5.7.29/include/mysql"
             );
             OTHER_LDFLAGS = (
                "$(inherited)",
-               "-lcurl"
+               "-lcurl",
+               "-L/usr/local/Cellar/mysql@5.7/5.7.29/lib",
+               "-lmysqlclient"
             );
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
+               "-I/usr/local/Cellar/mysql@5.7/5.7.29/include/mysql",
                "-Xcc",
                "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/module.modulemap",
                "-Xcc",
@@ -4493,14 +4505,18 @@
             );
             MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-I/usr/local/Cellar/mysql@5.7/5.7.29/include/mysql"
             );
             OTHER_LDFLAGS = (
                "$(inherited)",
-               "-lcurl"
+               "-lcurl",
+               "-L/usr/local/Cellar/mysql@5.7/5.7.29/lib",
+               "-lmysqlclient"
             );
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
+               "-I/usr/local/Cellar/mysql@5.7/5.7.29/include/mysql",
                "-Xcc",
                "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include/module.modulemap",
                "-Xcc",
@@ -8086,35 +8102,35 @@
       "OBJ_523" = {
          isa = "PBXGroup";
          children = (
-            "iPerfect::iPerfect::Product",
-            "SwiftMoment::SwiftMoment::Product",
-            "PerfectHTTPServer::PerfectHTTPServer::Product",
-            "PerfectThread::PerfectThread::Product",
-            "PerfectCZlib::PerfectCZlib::Product",
-            "PerfectLib::PerfectLib::Product",
-            "PerfectMarkdown::PerfectMarkdown::Product",
-            "PerfectLogger::PerfectLogger::Product",
-            "PerfectCURL::PerfectCURL::Product",
-            "StORM::StORM::Product",
-            "PerfectMySQL::PerfectMySQL::Product",
-            "PerfectHTTPServer::PerfectCHTTPParser::Product",
-            "iPerfect::Perfect-APNS::Product",
-            "PerfectNet::PerfectNet::Product",
-            "PerfectNotifications::PerfectNotifications::Product",
-            "PerfectWebSockets::PerfectWebSockets::Product",
-            "PerfectRequestLogger::PerfectRequestLogger::Product",
-            "JSONConfig::JSONConfig::Product",
             "iPerfect::iPerfectTests::Product",
-            "PerfectCRUD::PerfectCRUD::Product",
-            "PerfectCrypto::PerfectCrypto::Product",
-            "PerfectHTTP::PerfectHTTP::Product",
-            "iPerfect::OnLineMDEditor::Product",
+            "PerfectLogger::PerfectLogger::Product",
+            "PerfectHTTPServer::PerfectCHTTPParser::Product",
             "PerfectMarkdown::upskirt::Product",
-            "iPerfect::iNoteServer::Product",
-            "MySQLStORM::MySQLStORM::Product",
-            "iPerfect::Perfect-JSON-API::Product",
+            "SwiftMoment::SwiftMoment::Product",
             "iPerfect::Perfect-Weather::Product",
-            "COpenSSL::COpenSSL::Product"
+            "PerfectCrypto::PerfectCrypto::Product",
+            "PerfectWebSockets::PerfectWebSockets::Product",
+            "PerfectMySQL::PerfectMySQL::Product",
+            "PerfectNotifications::PerfectNotifications::Product",
+            "PerfectRequestLogger::PerfectRequestLogger::Product",
+            "PerfectLib::PerfectLib::Product",
+            "PerfectCZlib::PerfectCZlib::Product",
+            "PerfectCURL::PerfectCURL::Product",
+            "PerfectThread::PerfectThread::Product",
+            "COpenSSL::COpenSSL::Product",
+            "StORM::StORM::Product",
+            "iPerfect::iPerfect::Product",
+            "PerfectHTTPServer::PerfectHTTPServer::Product",
+            "PerfectHTTP::PerfectHTTP::Product",
+            "iPerfect::Perfect-APNS::Product",
+            "MySQLStORM::MySQLStORM::Product",
+            "JSONConfig::JSONConfig::Product",
+            "iPerfect::OnLineMDEditor::Product",
+            "PerfectCRUD::PerfectCRUD::Product",
+            "iPerfect::iNoteServer::Product",
+            "iPerfect::Perfect-JSON-API::Product",
+            "PerfectNet::PerfectNet::Product",
+            "PerfectMarkdown::PerfectMarkdown::Product"
          );
          name = "Products";
          path = "";
@@ -9862,14 +9878,18 @@
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
             OTHER_CFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-I/usr/local/Cellar/mysql@5.7/5.7.29/include/mysql"
             );
             OTHER_LDFLAGS = (
                "$(inherited)",
-               "-lcurl"
+               "-lcurl",
+               "-L/usr/local/Cellar/mysql@5.7/5.7.29/lib",
+               "-lmysqlclient"
             );
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
+               "-I/usr/local/Cellar/mysql@5.7/5.7.29/include/mysql",
                "-Xcc",
                "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap"
             );
@@ -9905,14 +9925,18 @@
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
             OTHER_CFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-I/usr/local/Cellar/mysql@5.7/5.7.29/include/mysql"
             );
             OTHER_LDFLAGS = (
                "$(inherited)",
-               "-lcurl"
+               "-lcurl",
+               "-L/usr/local/Cellar/mysql@5.7/5.7.29/lib",
+               "-lmysqlclient"
             );
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
+               "-I/usr/local/Cellar/mysql@5.7/5.7.29/include/mysql",
                "-Xcc",
                "-fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include/module.modulemap"
             );

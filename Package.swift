@@ -32,6 +32,7 @@ let package = Package(
 //        .library(name: "iPerfect", targets: ["iPerfect"]),
 //        .library(name: "Perfect-JSON-API", targets: ["Perfect-JSON-API"]),
         //.library(name: "OnLineMDEditor", targets: ["OnLineMDEditor"])
+        //.executable(name: "PerfectTemplate", targets: ["PerfectTemplate"])
     ],
 //    dependencies: urls.map { .package(url: $0, from: versions) },
     dependencies: [

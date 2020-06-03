@@ -14,20 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::Perfect-Weather"
-               BuildableName = "Perfect-Weather"
-               BlueprintName = "Perfect-Weather"
-               ReferencedContainer = "container:iPerfect.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "iPerfect::Perfect-JSON-API"
                BuildableName = "Perfect-JSON-API"
                BlueprintName = "Perfect-JSON-API"
@@ -42,9 +28,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::Perfect-APNS"
-               BuildableName = "Perfect-APNS"
-               BlueprintName = "Perfect-APNS"
+               BlueprintIdentifier = "iPerfect::Perfect-Weather"
+               BuildableName = "Perfect-Weather"
+               BlueprintName = "Perfect-Weather"
+               ReferencedContainer = "container:iPerfect.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "iPerfect::iPerfect"
+               BuildableName = "iPerfect"
+               BlueprintName = "iPerfect"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -70,9 +70,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::iPerfect"
-               BuildableName = "iPerfect"
-               BlueprintName = "iPerfect"
+               BlueprintIdentifier = "iPerfect::Perfect-APNS"
+               BuildableName = "Perfect-APNS"
+               BlueprintName = "Perfect-APNS"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
