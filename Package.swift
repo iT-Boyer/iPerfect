@@ -81,10 +81,10 @@ let package = Package(
 //                exclude:["webroot"],
 //                sources:["Sources"]),
         ///天气预报
-        .target(name:"PerfectWeather",
+        .target(name:"PerfectTemplate",
                 dependencies:["PerfectHTTPServer","PerfectCURL","JSONConfig",],//"cURL"],
-                path:"Other/PerfectWeather",
-                exclude:["Resource","Tests"],
+                path:"Other/PerfectTemplate",
+                exclude:["Sources/old"],
                 sources:["Sources"]),
         ///TODO
 //        .target(name:"ToDO-Backend",

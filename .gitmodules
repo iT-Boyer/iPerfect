@@ -16,3 +16,6 @@
 [submodule "Other/PerfectWeather"]
 	path = Other/PerfectWeather
 	url = https://github.com/iT-Boyer/PerfectTemplate.git
+[submodule "Other/PerfectTemplate"]
+	path = Other/PerfectTemplate
+	url = https://github.com/iT-Boyer/PerfectTemplate.git

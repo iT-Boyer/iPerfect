@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::OnLineMDEditor"
-               BuildableName = "OnLineMDEditor"
-               BlueprintName = "OnLineMDEditor"
-               ReferencedContainer = "container:iPerfect.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::Perfect-APNS"
-               BuildableName = "Perfect-APNS"
-               BlueprintName = "Perfect-APNS"
+               BlueprintIdentifier = "iPerfect::PerfectTemplate"
+               BuildableName = "PerfectTemplate"
+               BlueprintName = "PerfectTemplate"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,9 +42,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::Perfect-JSON-API"
-               BuildableName = "Perfect-JSON-API"
-               BlueprintName = "Perfect-JSON-API"
+               BlueprintIdentifier = "iPerfect::Perfect-APNS"
+               BuildableName = "Perfect-APNS"
+               BlueprintName = "Perfect-APNS"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -84,9 +70,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::Perfect-Weather"
-               BuildableName = "Perfect-Weather"
-               BlueprintName = "Perfect-Weather"
+               BlueprintIdentifier = "iPerfect::OnLineMDEditor"
+               BuildableName = "OnLineMDEditor"
+               BlueprintName = "OnLineMDEditor"
+               ReferencedContainer = "container:iPerfect.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "iPerfect::Perfect-JSON-API"
+               BuildableName = "Perfect-JSON-API"
+               BlueprintName = "Perfect-JSON-API"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
