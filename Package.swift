@@ -1,4 +1,4 @@
-// swift-tools-version:5.0
+// swift-tools-version:5.2
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -11,6 +11,7 @@ let urls = [
     "\(base)/Perfect-MySQL.git", // MySQL服务器
     "\(base)/Perfect-Logger.git", // 日志处理库
     "\(base)/Perfect-RequestLogger.git", // 请求日志处理库
+    "https://github.com/SwiftORM/MySQL-StORM.git", //对象关系型数据库
     "\(base)/Perfect-WebSockets.git",
     "\(base)/Perfect-Markdown.git",
     "\(base)/Perfect-Notifications.git",
@@ -18,7 +19,6 @@ let urls = [
     "\(base)/Perfect-CURL.git",
     "https://github.com/iamjono/JSONConfig.git",
 //    "\(base)/Perfect-libcurl.git",
-    "https://github.com/SwiftORM/MySQL-StORM.git",
 //    "https://github.com/iT-Boyer/Perfect-Turnstile-MySQL.git",
 //    "https://github.com/rymcol/SwiftSQL.git"
 ]
@@ -33,7 +33,19 @@ let package = Package(
 //        .library(name: "Perfect-JSON-API", targets: ["Perfect-JSON-API"]),
         //.library(name: "OnLineMDEditor", targets: ["OnLineMDEditor"])
     ],
-    dependencies: urls.map { .package(url: $0, from: versions) },
+//    dependencies: urls.map { .package(url: $0, from: versions) },
+    dependencies: [
+        .package(name:"PerfectHTTPServer", url: "\(base)/Perfect-HTTPServer.git", from: versions),
+        .package(name:"PerfectMySQL", url: "\(base)/Perfect-MySQL.git", from: versions),
+        .package(name:"PerfectLogger", url: "\(base)/Perfect-Logger.git", from: versions),
+        .package(name:"PerfectRequestLogger", url: "\(base)/Perfect-RequestLogger.git", from: versions),
+        .package(name:"MySQLStORM", url: "https://github.com/SwiftORM/MySQL-StORM.git", from: versions),
+        .package(name:"PerfectWebSockets", url: "\(base)/Perfect-WebSockets.git", from: versions),
+        .package(name:"PerfectMarkdown", url: "\(base)/Perfect-Markdown.git", from: versions),
+        .package(name:"PerfectNotifications", url: "\(base)/Perfect-Notifications.git", from: versions),
+        .package(name:"PerfectCURL", url: "\(base)/Perfect-CURL.git", from: versions),
+        .package(name:"JSONConfig", url: "https://github.com/iamjono/JSONConfig.git", from: versions),
+    ],
     targets: [
         .target(
             name: "iPerfect",
@@ -45,7 +57,11 @@ let package = Package(
         .target(name:"Perfect-JSON-API",
                dependencies: ["PerfectHTTPServer"],
                path:"Other/JSONAPI/Sources"
-               ),
+        ),
+        .target(name:"iNoteServer",
+                dependencies: ["PerfectHTTPServer","PerfectMySQL","MySQLStORM","PerfectLogger","PerfectRequestLogger"],
+                path:"Other/iNoteServer/Sources"
+        ),
         ///在线MarkDown编辑器
         .target(name:"OnLineMDEditor",
                 dependencies: ["PerfectHTTPServer","PerfectWebSockets","PerfectMarkdown"],
