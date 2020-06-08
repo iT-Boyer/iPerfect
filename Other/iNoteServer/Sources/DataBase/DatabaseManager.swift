@@ -14,8 +14,8 @@ class DatabaseManager {
     private init() {
         MySQLConnector.host = "127.0.0.1"
         MySQLConnector.username = "root"
-        MySQLConnector.password = "Hhx505608099"
-        MySQLConnector.database = "iNote" //MySql中创建的iNote数据库
+        MySQLConnector.password = "12345678"
+        MySQLConnector.database = "iNoteDB" //MySql中创建的iNote数据库
         MySQLConnector.port = 3306
     }
 }
