@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::PerfectTemplate"
-               BuildableName = "PerfectTemplate"
-               BlueprintName = "PerfectTemplate"
-               ReferencedContainer = "container:iPerfect.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::iPerfect"
-               BuildableName = "iPerfect"
-               BlueprintName = "iPerfect"
+               BlueprintIdentifier = "iPerfect::Perfect-JSON-API"
+               BuildableName = "Perfect-JSON-API"
+               BlueprintName = "Perfect-JSON-API"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -56,6 +42,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "iPerfect::iPerfect"
+               BuildableName = "iPerfect"
+               BlueprintName = "iPerfect"
+               ReferencedContainer = "container:iPerfect.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "iPerfect::iNoteServer"
                BuildableName = "iNoteServer"
                BlueprintName = "iNoteServer"
@@ -70,9 +70,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::OnLineMDEditor"
-               BuildableName = "OnLineMDEditor"
-               BlueprintName = "OnLineMDEditor"
+               BlueprintIdentifier = "iPerfect::PerfectTemplate"
+               BuildableName = "PerfectTemplate"
+               BlueprintName = "PerfectTemplate"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -84,9 +84,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "iPerfect::Perfect-JSON-API"
-               BuildableName = "Perfect-JSON-API"
-               BlueprintName = "Perfect-JSON-API"
+               BlueprintIdentifier = "iPerfect::OnLineMDEditor"
+               BuildableName = "OnLineMDEditor"
+               BlueprintName = "OnLineMDEditor"
                ReferencedContainer = "container:iPerfect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

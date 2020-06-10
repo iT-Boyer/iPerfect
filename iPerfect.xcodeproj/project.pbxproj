@@ -3354,10 +3354,10 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Perfect-libcurl",
                "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-libcurl"
             );
             INFOPLIST_FILE = "iPerfect.xcodeproj/PerfectTemplate_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "8.0";
@@ -3404,10 +3404,10 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Perfect-libcurl",
                "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-libcurl"
             );
             INFOPLIST_FILE = "iPerfect.xcodeproj/PerfectTemplate_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "8.0";
@@ -4475,11 +4475,11 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Perfect-libcurl",
                "$(SRCROOT)/.build/checkouts/Perfect-mysqlclient",
                "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-libcurl"
             );
             INFOPLIST_FILE = "iPerfect.xcodeproj/iNoteServer_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "8.0";
@@ -4495,9 +4495,9 @@
             );
             OTHER_LDFLAGS = (
                "$(inherited)",
-               "-lcurl",
                "-L/usr/local/Cellar/mysql@5.7/5.7.29/lib",
-               "-lmysqlclient"
+               "-lmysqlclient",
+               "-lcurl"
             );
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
@@ -4530,11 +4530,11 @@
             );
             HEADER_SEARCH_PATHS = (
                "$(inherited)",
-               "$(SRCROOT)/.build/checkouts/Perfect-libcurl",
                "$(SRCROOT)/.build/checkouts/Perfect-mysqlclient",
                "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-libcurl"
             );
             INFOPLIST_FILE = "iPerfect.xcodeproj/iNoteServer_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "8.0";
@@ -4550,9 +4550,9 @@
             );
             OTHER_LDFLAGS = (
                "$(inherited)",
-               "-lcurl",
                "-L/usr/local/Cellar/mysql@5.7/5.7.29/lib",
-               "-lmysqlclient"
+               "-lmysqlclient",
+               "-lcurl"
             );
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
@@ -4832,7 +4832,8 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-libcurl"
             );
             INFOPLIST_FILE = "iPerfect.xcodeproj/iPerfect_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "8.0";
@@ -4846,7 +4847,8 @@
                "$(inherited)"
             );
             OTHER_LDFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-lcurl"
             );
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
@@ -4880,7 +4882,8 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-libcurl"
             );
             INFOPLIST_FILE = "iPerfect.xcodeproj/iPerfect_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "8.0";
@@ -4894,7 +4897,8 @@
                "$(inherited)"
             );
             OTHER_LDFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-lcurl"
             );
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
@@ -5153,7 +5157,8 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-libcurl"
             );
             INFOPLIST_FILE = "iPerfect.xcodeproj/iPerfectTests_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "8.0";
@@ -5167,7 +5172,8 @@
                "$(inherited)"
             );
             OTHER_LDFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-lcurl"
             );
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
@@ -5201,7 +5207,8 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-libcurl"
             );
             INFOPLIST_FILE = "iPerfect.xcodeproj/iPerfectTests_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "8.0";
@@ -5215,7 +5222,8 @@
                "$(inherited)"
             );
             OTHER_LDFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-lcurl"
             );
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
@@ -8137,35 +8145,35 @@
       "OBJ_523" = {
          isa = "PBXGroup";
          children = (
-            "PerfectLib::PerfectLib::Product",
-            "MySQLStORM::MySQLStORM::Product",
-            "StORM::StORM::Product",
-            "COpenSSL::COpenSSL::Product",
-            "iPerfect::Perfect-JSON-API::Product",
-            "PerfectRequestLogger::PerfectRequestLogger::Product",
-            "PerfectCrypto::PerfectCrypto::Product",
+            "PerfectMySQL::PerfectMySQL::Product",
             "PerfectMarkdown::PerfectMarkdown::Product",
-            "PerfectCURL::PerfectCURL::Product",
-            "PerfectHTTP::PerfectHTTP::Product",
             "PerfectCRUD::PerfectCRUD::Product",
-            "PerfectHTTPServer::PerfectCHTTPParser::Product",
-            "PerfectCZlib::PerfectCZlib::Product",
-            "iPerfect::iNoteServer::Product",
-            "PerfectWebSockets::PerfectWebSockets::Product",
-            "JSONConfig::JSONConfig::Product",
-            "PerfectNotifications::PerfectNotifications::Product",
-            "PerfectNet::PerfectNet::Product",
-            "iPerfect::iPerfect::Product",
-            "SwiftMoment::SwiftMoment::Product",
+            "StORM::StORM::Product",
+            "PerfectCrypto::PerfectCrypto::Product",
+            "iPerfect::PerfectTemplate::Product",
             "iPerfect::OnLineMDEditor::Product",
-            "PerfectMarkdown::upskirt::Product",
-            "iPerfect::iPerfectTests::Product",
+            "SwiftMoment::SwiftMoment::Product",
+            "JSONConfig::JSONConfig::Product",
+            "PerfectThread::PerfectThread::Product",
             "PerfectHTTPServer::PerfectHTTPServer::Product",
             "iPerfect::Perfect-APNS::Product",
-            "PerfectMySQL::PerfectMySQL::Product",
-            "PerfectThread::PerfectThread::Product",
-            "PerfectLogger::PerfectLogger::Product",
-            "iPerfect::PerfectTemplate::Product"
+            "iPerfect::Perfect-JSON-API::Product",
+            "PerfectRequestLogger::PerfectRequestLogger::Product",
+            "PerfectCZlib::PerfectCZlib::Product",
+            "PerfectWebSockets::PerfectWebSockets::Product",
+            "iPerfect::iNoteServer::Product",
+            "PerfectCURL::PerfectCURL::Product",
+            "PerfectNotifications::PerfectNotifications::Product",
+            "iPerfect::iPerfect::Product",
+            "PerfectMarkdown::upskirt::Product",
+            "PerfectHTTPServer::PerfectCHTTPParser::Product",
+            "PerfectNet::PerfectNet::Product",
+            "COpenSSL::COpenSSL::Product",
+            "MySQLStORM::MySQLStORM::Product",
+            "PerfectHTTP::PerfectHTTP::Product",
+            "PerfectLib::PerfectLib::Product",
+            "iPerfect::iPerfectTests::Product",
+            "PerfectLogger::PerfectLogger::Product"
          );
          name = "Products";
          path = "";
@@ -10297,7 +10305,8 @@
                "$(SRCROOT)/.build/checkouts/Perfect-Markdown/Sources/upskirt/include",
                "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-libcurl"
             );
             INFOPLIST_FILE = "iPerfect.xcodeproj/OnLineMDEditor_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "8.0";
@@ -10311,7 +10320,8 @@
                "$(inherited)"
             );
             OTHER_LDFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-lcurl"
             );
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
@@ -10348,7 +10358,8 @@
                "$(SRCROOT)/.build/checkouts/Perfect-Markdown/Sources/upskirt/include",
                "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-libcurl"
             );
             INFOPLIST_FILE = "iPerfect.xcodeproj/OnLineMDEditor_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "8.0";
@@ -10362,7 +10373,8 @@
                "$(inherited)"
             );
             OTHER_LDFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-lcurl"
             );
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
@@ -10559,7 +10571,8 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-libcurl"
             );
             INFOPLIST_FILE = "iPerfect.xcodeproj/Perfect_APNS_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "8.0";
@@ -10573,7 +10586,8 @@
                "$(inherited)"
             );
             OTHER_LDFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-lcurl"
             );
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
@@ -10607,7 +10621,8 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-libcurl"
             );
             INFOPLIST_FILE = "iPerfect.xcodeproj/Perfect_APNS_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "8.0";
@@ -10621,7 +10636,8 @@
                "$(inherited)"
             );
             OTHER_LDFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-lcurl"
             );
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
@@ -10809,7 +10825,8 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-libcurl"
             );
             INFOPLIST_FILE = "iPerfect.xcodeproj/Perfect_JSON_API_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "8.0";
@@ -10823,7 +10840,8 @@
                "$(inherited)"
             );
             OTHER_LDFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-lcurl"
             );
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",
@@ -10857,7 +10875,8 @@
                "$(inherited)",
                "$(SRCROOT)/.build/checkouts/Perfect-CZlib-src/PerfectCZlib/include",
                "$(SRCROOT)/.build/checkouts/Perfect-COpenSSL/COpenSSL/include",
-               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include"
+               "$(SRCROOT)/.build/checkouts/Perfect-HTTPServer/Sources/PerfectCHTTPParser/include",
+               "$(SRCROOT)/.build/checkouts/Perfect-libcurl"
             );
             INFOPLIST_FILE = "iPerfect.xcodeproj/Perfect_JSON_API_Info.plist";
             IPHONEOS_DEPLOYMENT_TARGET = "8.0";
@@ -10871,7 +10890,8 @@
                "$(inherited)"
             );
             OTHER_LDFLAGS = (
-               "$(inherited)"
+               "$(inherited)",
+               "-lcurl"
             );
             OTHER_SWIFT_FLAGS = (
                "$(inherited)",

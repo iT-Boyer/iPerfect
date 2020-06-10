@@ -47,6 +47,9 @@ let package = Package(
         .package(name:"PerfectCURL", url: "\(base)/Perfect-CURL.git", from: versions),
         .package(name:"JSONConfig", url: "https://github.com/iamjono/JSONConfig.git", from: versions),
         .package(name:"cURL", url: "\(base)/Perfect-libcurl.git", from: Version(2, 0, 0)),
+        //quick行为测试
+        .package(url: "https://github.com/Quick/Quick.git", from: "2.2.0"),
+        .package(url: "https://github.com/Quick/Nimble.git", from: "8.0.9"),
     ],
     targets: [
         .target(
@@ -61,7 +64,14 @@ let package = Package(
                path:"Other/JSONAPI/Sources"
         ),
         .target(name:"iNoteServer",
-                dependencies: ["PerfectHTTPServer","PerfectMySQL","MySQLStORM","PerfectLogger","PerfectRequestLogger"],
+                dependencies: ["PerfectHTTPServer",
+                               "PerfectMySQL",
+                               "MySQLStORM",
+                               "PerfectLogger",
+                               "PerfectRequestLogger",
+//                               "Quick",
+//                               "Nimble",
+            ],
                 path:"Other/iNoteServer/Sources"
         ),
         ///在线MarkDown编辑器
